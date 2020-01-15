@@ -2635,8 +2635,8 @@ input, select, textarea {
 				margin: 0 8rem;
 			}
 			.image.main video {
-				width: 70%;
-				margin: 0 8rem;
+				width: 100%;
+				margin: 0 auto;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -4668,6 +4668,10 @@ input, select, textarea {
 			transform: translateX(0);
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
+		}
+		.image.main img {
+			width: 100%;
+			margin: 0 auto;
 		}
 
 	}
